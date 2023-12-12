@@ -1,0 +1,13 @@
+package com.example.demo.services;
+
+import com.example.demo.entity.Employee;
+
+public class EmployeeImpl implements EmployeeService {
+
+	@Override
+	public Integer saveEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,15 @@
+server.port=8887
+
+spring.datasource.url=jdbc:mysql://localhost:3306/prostack?createDatabaseIfNotExist=true
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.show-sql=true
+
+spring.security.user.name=nani
+spring.security.user.password=nani@32
+
+spring.datasource.username=root
+spring.datasource.password=root

@@ -1,0 +1,12 @@
+package com.example.demo.jwt;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class JwtUtil {
+	
+	@Value("${app.secret}")
+	private String secret;
+
+}
